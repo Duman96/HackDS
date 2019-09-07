@@ -1,0 +1,60 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    {% load staticfiles %}
+    <div class="jumbotron">
+        <h1 class="display-4">Найди работу мечты</h1>
+        <p class="lead">Руководители современных предприятий перестают относиться к персоналу как к ресурсу,
+            расходующему прибыль, и осознают, что только от сотрудников зависит рост. Поэтому сегодня HR директор
+            перерастает из «просто кадровика» в бизнес-партнера, ответственного за формирование успешной стратегии
+            персоналом и выступающего советником первых лиц компании. HR в данном случае является дирижёром оркестра, от
+            умелой работы которого зависит общий успех.</p>
+        <hr class="my-4">
+        <p>Зачастую HR директорам сложно представить в полной мере спектр возложенных на них задач.</p>
+        <p>Мы готовы предоставить лучшее решение задач HR, на основе machine learning</p>
+
+    </div>
+
+    <!-- Конец джумботрона -->
+
+    <!-- Карточки -->
+
+    <div class="row">
+        <div class="col-sm-4">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Эксперт по проекту&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h5>
+                    <p class="card-text">«Разработка методологии по управлению закупочной деятельностью»
+                    </p>
+                    <a href="{% url 'book_list' %}" class="btn btn-primary">Перейти к вакансии &raquo;</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-4">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Менеджер управления запасов</h5>
+                    <p class="card-text">«Разработка методологии по управлению закупочной деятельностью»</p>
+                    <a href="{% url 'book_list' %}" class="btn btn-primary">Перейти к вакансии &raquo;</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-4">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Менеджер IT проектов &nbsp;&nbsp;&nbsp;</h5>
+                    <p class="card-text">«Управление ключевыми внешними и внутренними взаимоотношениями»&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+                    <a href="{% url 'book_list' %}" class="btn btn-primary">Перейти к вакансии &raquo;</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Конец карточек -->
+
+    <hr class="my-4">
+
+
+    </div>
+
+{% endblock %}
