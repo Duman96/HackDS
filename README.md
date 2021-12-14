@@ -1,3 +1,4 @@
+Проект на Хакатоне от Самрука 2019. Алгоритм для обработки резюме на требуемые вакансии.
 # Django File Upload Tutorial
 
 [![Python Version](https://img.shields.io/badge/python-3.7-brightgreen.svg)](https://python.org)
